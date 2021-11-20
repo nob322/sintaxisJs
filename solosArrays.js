@@ -1,3 +1,4 @@
+//array
 var array__1 = [120,123,55,48,12]
 var array__2 = [780,200,22,30,20]
 var array__3 = [110,850,46,78,61]
@@ -14,6 +15,7 @@ var array__10 = [620,641,633,670,680,690,623,654,699]
 const fusionoMasArrays = [array__7, array__8, array__9,array__10]
 console.log(fusionoMasArrays[2][4])
 console.log(fusionoMasArrays[1][1])
+//otro array
 var array__11 = [448,882,652,993,774,520,330,112,231]
 var array__12 = [612,789,987,456,654,456,321,123,201]
 var array__13 = [741,147,852,258,963,369,321,123,456]
@@ -21,3 +23,14 @@ var array__14 = [951,159,753,357,456,654,852,258,002]
 var fusionoMasArrays1 = [array__11,array__12,array__13,array__14]
 var comprueboSiEsArray1 = Array.isArray(fusionoMasArrays1)
 console.log("Veamos si fusionoMasArrays1 es o no array: " + comprueboSiEsArray1)
+//otro array
+let arranoOne = ["EstoSi","EstoNo","estoSi2","EstoNo2"]
+let arranoTwo = ["veritoOne","veritoTwo","veritoThree","veritoFour"]
+let fusionoArranos = [arranoOne,arranoTwo]
+let comprueboArrayArrano = Array.isArray(fusionoArranos)
+console.log("compruebo si el multidimensional llamado Arranos son array o no loco: " + comprueboArrayArrano )
+//otro array
+let array__15 = [120,291,230,440]
+let array__16 = [990,800,700,500]
+let array__17 = [721,330,320,499]
+let juntoArraysYa = [array__15,array__16,array__17]

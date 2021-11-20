@@ -14,6 +14,13 @@
         .rojito{
             color:rgb(9, 24, 158);
         }
+        .formulario{
+            background-color: orange;
+            width: 700px;
+            height: 60px;
+            color:white;
+            padding: 10px;
+        }
     </style>
     <div class="container">
 <!--Dom-->
@@ -42,10 +49,44 @@
 <br>
 <p id="okidoki">Esto es algo que cambiará con sólo un click</p>
 <p id="okidoki2">Esto es el que va con el botón que activa con el mouse</p>
+<p id="okodoloco">Esto mete estilos manipulando el dom con sólo un click</p>
+<p id="yaYayaOkoLoco">Cambiaremos el color de este texto llamado OKOLOCO1</p>
+<table id="tablitaOne">
+  <tr>
+      <td>hola</td>
+      <td>0</td>
+  </tr>
+  <tr>
+      <td>chau</td>
+      <td>1</td>
+  </tr>
+</table>
 <button type="button" class="btn btn-success" onclick="goGo()" id="120sisi">Click y hacemos algo</button>
 <button type="button" class="btn btn-success" onmouseover="goGo2()" id="120sisi2">Pásale el mause y hacemos otra cosita</button>
+<button type="button" class="btn btn-success" onclick="goGo3()" id="">Click y le metemos algo</button>
+<button  type="button" class="btn btn-success" onclick="goGo4()">Click y cambiamos el texto okoloco</button>
+<br><br>
+<button type="button" class="btn btn-success" onclick="goGo5()">Click y alteramos la tablita</button> 
+<br><br>
+<p>---</P>
+    <form action="" class="formulario" onclick = "sumemosYa()" method="post">
+        <p>Número 1 <input type="text" id="numeritoOne">
+        +  Número 2 <input type="text" id="numeritoTwo">
+        <input type="submit" class="btn btn-dark" ></button> </p>
+        
+    </form>
 
-    </div>
+
+
+
+
+
+
+
+
+
+
+</div>
 
 
 

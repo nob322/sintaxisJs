@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>iops</title>    
+</head>
+<body>
+       <script>
+            let vamos = prompt("ingresá S o N")
+            if(vamos === "S"){
+            function asincronica(callback){
+            setTimeout(function(){
+            console.log("Esto quiere decír que es 20 y se ejecuto en 9 sec")       
+            },9000)
+            callback()
+            }
+            function noAsincronica(){
+            console.log("Ésta es no asincronica")
+            }
+            asincronica(noAsincronica)
+            }else{
+            console.log("Esto significa que respondiste con N en el valor de la variable loco")
+            }
+        </script>    
+</body>
+</html>

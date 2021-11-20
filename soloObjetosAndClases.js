@@ -43,6 +43,89 @@ var objetoPrimario = {
     var guardoObjetoAndPropiedad2 = objetoPrimario.propiedad2
     console.log(guardoObjetoAndPropiedad1)
     console.log(guardoObjetoAndPropiedad2)
-    objetoPrimario.funciona1
+    objetoPrimario.funciona1()
     delete objetoPrimario.propiedad3
     console.log("Esto es para comprobar si la propiedad 3 del ojetoPrimario existe " + objetoPrimario.propiedad3)
+    var objetoPrimario2 = {
+        accion1: "Esto es una acción one",
+        accion2: "Esto es una acción two",
+        accion3: "Esto es una acción three",
+        hagoAlgo: function vamosS(){
+           console.log("función hagoAlgo del objetoPrimario2")
+        }
+    }
+    objetoPrimario2.hagoAlgo()
+//objeto 3
+
+    let objeto3 = {
+        propiedad1: "Esto es una propiedad 1",
+        propiedad2: "Esto es una propiedad 2",
+        propiedad3: "Esto es una propiedad 3",
+        funcionalidad1: function funciona1(){
+            console.log("Esto es puff funcionalidad 1 objeto3")
+        },
+        funcionalidad2: function funciona2(){
+            console.log("Esto es paff funcionalidad 2 objeto3")
+        }
+    }
+    objeto3.funcionalidad1()
+    objeto3.funcionalidad2()
+    let metoObjeto3Propiedad1 = objeto3.propiedad1
+    console.log(metoObjeto3Propiedad1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    //clases
+    class Conejo {
+        constructor(tipo) {
+        this.tipo = tipo;
+        }
+        hablar(linea) {
+        console.log(`El conejo ${this.tipo} dice '${linea}'`);
+        }
+        }
+        let conejoAsesino = new Conejo("asesino");
+        let conejoNegro = new Conejo("negro");
+        
+
+     

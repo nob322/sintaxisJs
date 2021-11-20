@@ -1,3 +1,4 @@
+//funciones tradicionales
 function goGo(){
     var guardoAjusteUno = document.getElementById("okidoki")
     guardoAjusteUno.style.color = "red" 
@@ -17,4 +18,25 @@ function goGo2(){
     guardoAjusteDos.style.fontWeight = "bold"
     guardoAjusteDos.style.borderStyle = "dashed"
     guardoAjusteDos.style.borderWidth = "6px"
+}
+//en función flecha
+const goGo3 = () => { 
+    let guardoDom = document.getElementById("okodoloco")
+    guardoDom.style.color="red"
+    guardoDom.style.fontSize="17px"
+}
+var goGo4 = () => {
+    var tomoElementooO = document.querySelector("#yaYayaOkoLoco")
+    tomoElementooO.style.color="orange"
+    tomoElementooO.style.borderWidth="2px"
+    tomoElementooO.style.borderStyle="solid"
+    tomoElementooO.style.backgroundColor="black"
+    tomoElementooO.style.padding="5px"
+}
+let goGo5 = () => {
+      //se puede hacer si guardar el selector en la variable de forma directa
+    document.querySelector("#tablitaOne").style.fontSize = "24px"
+    let tablita1 = document.querySelector("#tablitaOne")
+    tablita1.style.color="red"
+  
 }
