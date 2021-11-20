@@ -38,5 +38,20 @@ let goGo5 = () => {
     document.querySelector("#tablitaOne").style.fontSize = "24px"
     let tablita1 = document.querySelector("#tablitaOne")
     tablita1.style.color="red"
+    tablita1.style.borderStyle="solid"
   
+}
+function agrego1(){
+    const block = document.getElementById('block');
+	let agregarAlgo = `
+	<h1>Agrego encabezado 1</h1>
+	<h2>Agrego encabezado 2</h2>
+	<h3>Agrego encabezado 3</h3>
+	<h4>Agrego encabezado 4</h4>
+	`
+	block.innerHTML = agregarAlgo
+}
+//en función normal
+function agregar2(){
+
 }
